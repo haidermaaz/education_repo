@@ -1,0 +1,902 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>theme</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--	Bootstrap 5.0.2 Style Sheet	-->
+<link href="./assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<!--	Custom Style Sheet Sheet	-->
+<link href="./assets/css/style.css"	rel="stylesheet" type="text/css">
+<!-- fontawesome -->
+<link rel="stylesheet" href="./assets/css/all.css">
+<!-- css file for carousel -->
+<link href="./assets/css/owl.carousel.min.css" rel="stylesheet" type="text/css">
+<!-- css file for carousel -->
+<link href="./assets/css/owl.theme.default.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="scrollTop d-flex justify-content-center align-items-center" onclick="scrollToTop();">
+		<i class="fas fa-arrow-up fa-2x"></i>
+	</div>
+
+	<!------------------------------------------------------------- HEADER START ------------------------------------------------------------->
+ 	<header class=" header">
+		<div class=" container-fluid shed">
+			<div class="container">
+				<div class="d-flex"> 
+					<div class="d-none d-lg-block">
+						<div class="icon-cap">
+							<i class="fas fa-graduation-cap fa-3x icon"></i>
+							<h5>Education</h5>
+						</div>
+					</div>
+					<div class="w-100 mt-3">
+						<!--------------------------------transparent nav (nav-1--------------------------------------->
+						<div class="nav-1 d-md-flex justify-content-between">
+							<div class="text-center  py-3">
+								<span class="number mx-3 fw-bold text-light">+5557200314</span>
+								<span class="address mx-3 fw-bold text-light">info@swlabs.co</span>
+							</div>
+							<!------search bar--------->
+							<div class="my-search-bar">
+								<form id="search-bar">
+									<input type="text" name="input" class="search-here" id="search-input" placeholder="Search Here">
+									<button type="reset" class="search" id="search-btn"></button>
+								</form>
+							</div>
+
+							<div class="text-center py-3 d-none d-md-block">
+								<!--  modal register -->
+								 <b  data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="text-light register">
+									Register
+								</b>
+								<!-- Modal -->
+								<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="staticBackdropLabel">Register now</h5>
+										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+										</div>
+										<div class="modal-body">
+											<form action="#" method="post" class="d-flex flex-column justify-content-center align-items-center">
+												
+													<input type="name" id="fname" name="fname" placeholder="Your full name" class="form-control">
+													<input type="email" id="email" name="email" placeholder="Your email" class="form-control">
+													<input type="number" id="number" name="lname" placeholder="Mobile number" class="form-control">
+												
+												<div class="button_container my-3 take-this">
+													<div class="button_su">
+														<span class="su_button_circle">
+														</span>
+														<a href="#" class="button_su_inner">
+														<span class="button_text_container">
+															TAKE THIS COURSE
+														</span>
+														</a>
+													</div>
+												</div> 
+											</form>
+										</div>
+									</div>
+									</div>
+								</div>
+							
+								<!--  modal login -->
+								<b  data-bs-toggle="modal" data-bs-target="#staticBackdrop1" class="text-light login mx-3">
+									Login
+								</b>
+								
+								<!-- Modal -->
+								<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+									<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5>Login</h5>
+										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+										</div>
+										<div class="modal-body">
+											<form action="#" method="post" class="d-flex flex-column justify-content-center align-items-center">
+												
+													<input type="name" id="fname" name="fname" placeholder="Your full name" class="form-control">
+													<input type="email" id="email" name="email" placeholder="Your email" class="form-control">
+												
+												<div class="button_container my-3">
+													<div class="button_su">
+														<span class="su_button_circle">
+														</span>
+														<a href="#" class="button_su_inner">
+														<span class="button_text_container">
+															login
+														</span>
+														</a>
+													</div>
+												</div> 
+											</form>
+										</div>
+									</div>
+									</div>
+								</div>
+								
+
+							</div>
+						</div>
+						<!---------------------------------------White nav (nav-2)-------------------------------------->
+						<nav class="navbar navbar-expand-lg navbar-light">
+							<div class="container-fluid p-0">
+								<a class="navbar-brand d-lg-none" href="#">
+									<div>
+										<i class="fas fa-graduation-cap fa-2x mx-2 icon"></i>
+										<span class="h2">Education</span>
+									</div>
+								</a>
+								<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="navbar-toggler-icon"></span>
+								</button>
+								<div class="collapse navbar-collapse" id="navbarSupportedContent">
+									<ul class="navbar-nav ms-auto">
+									<li class="nav-item">
+										<a class="nav-link active" aria-current="page" href="#">Home</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="course.html">Course</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Pages</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Demo</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Blog</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Contact</a>
+									</li>
+									<li class="nav-item d-md-none">
+										<a class="nav-link" href="#">Register</a>
+									</li>
+									<li class="nav-item d-md-none">
+										<a class="nav-link" href="#">login</a>
+									</li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+
+			<div class="container position-relative py-5">
+				<div class="row">
+					<div class="col-lg-7 text-1	">
+						<h1>Education For the creatives</h1>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eveniet sed cupiditate alias veniam id quibusdam similique animi, culpa, recusandae earum praesentium nisi. Aspernatur dolorum blanditiis odio magnam possimus nulla consectetur adipisicing elit. Distinctio eveniet sed cupiditate alias veniam id quibusdam similique animi, culpa, recusandae earum praesentium nisi. Aspernatur dolorum blanditiis odio magnam possimus nulla</p>
+					</div>
+					<div class="col-lg-5 register-div">
+						<div class="row">
+							<div class="card-box py-5">
+								<center><h3>Register Now</h3></center>
+								<form action="#" method="post" class="d-flex flex-column justify-content-center align-items-center">
+									<input type="name" id="fname" name="fname" placeholder="Your full name" class="my-3">   
+									<input type="email" id="email" name="email" placeholder="Your email" class=" my-3">	    
+									<input type="number" id="number" name="lname" placeholder="Mobile number" class=" my-3">	
+								
+									<center>
+										<div class="button_container mt-4 take-this">
+											<div class="button_su">
+												<span class="su_button_circle">
+												</span>
+												<a href="#" class="button_su_inner px-5">
+												<span class="button_text_container">
+													TAKE THIS COURSE
+												</span>
+												</a>
+											</div>
+										</div>
+									</center>	 
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</header> 
+	<!-------------------------------------------------------------AFTER HEADER START ------------------------------------------------------------->
+	<div class="container after-header">
+		<div class="line"> <div class="strip"></div> &nbsp; <div class="drop"></div>  </div>
+		<h1>What do you achieve after this course?</h1>
+		<div class="row advertise">
+			<div class="col-lg-6">
+				<iframe height="342px" width="100%" src="https://www.youtube.com/embed/tzMpWiGL8D8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="my-4"></iframe>
+				
+			</div>
+			
+			<div class="col-lg-6 text-2">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nulla aperiam blanditiis nisi ut eum repellendus autem similique sed.</p>
+				<ul>
+					<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consectetur dolorum fugit quisquam Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam eaque iste labore quis commodi.  </li>
+					<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consectetur dolorum fugit quisquam Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam eaque iste labore quis commodi.</li>
+					<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consectetur dolorum fugit quisquam Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam eaque iste labore quis commodi.</li>
+				</ul>
+				<div class="button_container ms-2">
+					<div class="button_su">
+					  <span class="su_button_circle">
+					  </span>
+					  <a href="#" class="button_su_inner px-3">
+						<span class="button_text_container">
+						  DETAILS OF THIS COURSE
+						</span>
+					  </a>
+					</div>
+				</div>   
+				
+			</div>
+		</div>
+	</div>
+
+	<!------------------------------------------------------- icons portion start ---------------------------------------------------->
+	<div class=" grey-portion py-3">
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-6 col-lg-3 my-3 column-1 py-3">       <div class="circle"><i class="fas fa-pen-alt fa-2x"></i></div> <br>
+					 <h5>Problem Solving</h5>
+					    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+			
+				</div>
+				<div class="col-md-6 col-lg-3 my-3 column-1 py-3">    <div class="circle"><i class="fas fa-camera-retro fa-2x"></i></div> <br>
+					<h5>Role Play Study</h5>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				</div>
+				<div class="col-md-6 col-lg-3 my-3 column-1 py-3">    <div class="circle"><i class="far fa-lightbulb fa-2x"></i></div> <br>
+				<h5>Creative Thinking</h5> 
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				</div>
+				<div class="col-md-6 col-lg-3 my-3 column-1 py-3">    <div class="circle"><i class="fab fa-mixcloud fa-2x"></i></div> <br>
+				<h5>Silicone Valley Techniques</h5> 
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>  
+				</div>
+			</div>
+		</div>
+	</div>  
+	<!-------------------------------------------------vector portion start ------------------------------------------------------->
+	 <div class="container-fluid vector py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 my-3 before-leaf">
+					<div class="leaf">   
+						<img src="./assets/images/7.png"> 
+						<div class="text-in-img">
+							<div class="line"><div class="strip bg-light"></div> &nbsp; <div class="drop bg-light"></div>  </div>
+							<h3>Chirs' awards</h3>
+						</div>  
+					</div>  <br><br>
+					<h2>We are achieve awards</h2>
+				</div>
+				<div class="col-lg-7">
+					<div class="row d-flex justify-content-center align-items-center">
+
+						<div class="col-md-3 my-4">
+							<div class="box mx-auto">
+								<div class="box-inner">
+								  <div class="box-front">
+									<i class="fab fa-accusoft fa-5x"></i>
+								  </div>
+								  <div class="box-back"><br>
+									<h2>#2</h2> 
+									<p>A deign award 2016 in san Francisco</p>
+								  </div>
+								</div>
+							</div> 
+						</div>
+
+						<div class="col-md-3 my-4">          
+							<div class="box mx-auto">
+								<div class="box-inner">
+									<div class="box-front">
+										<i class="fab fa-affiliatetheme fa-5x"></i>
+									</div>
+									<div class="box-back"><br>
+									  <h2>#2</h2> 
+									  <p>A deign award 2016 in san Francisco</p>
+									</div>
+								  </div>
+							</div>      
+						</div>
+
+						<div class="col-md-3 my-4">          
+							<div class="box mx-auto">
+								<div class="box-inner">
+									<div class="box-front">
+										<i class="fab fa-artstation fa-5x"></i>
+									</div>
+									<div class="box-back"><br>
+									  <h2>#2</h2> 
+									  <p>A deign award 2016 in san Francisco</p>
+									</div>
+								  </div>
+							</div>     
+						</div>
+					
+					</div>
+					<div class="row d-flex justify-content-center align-items-center">	
+
+						<div class="col-md-3  my-4">
+							<div class="box mx-auto">
+								<div class="box-inner">
+									<div class="box-front">
+										<i class="fab fa-audible fa-5x"></i>
+									</div>
+									<div class="box-back"><br>
+									  <h2>#2</h2> 
+									  <p>A deign award 2016 in san Francisco</p>
+									</div>
+								  </div>
+							</div>      
+						</div>
+
+						<div class="col-md-3 my-4">          
+							<div class="box mx-auto">
+								<div class="box-inner">
+									<div class="box-front">
+										<i class="fab fa-css3 fa-5x"></i>
+									</div>
+									<div class="box-back"><br>
+									  <h2>#2</h2> 
+									  <p>A deign award 2016 in san Francisco</p>
+									</div>
+								  </div>
+							</div>      
+						</div>
+						
+						<div class="col-md-3 my-4">          
+							<div class="box mx-auto">
+								<div class="box-inner">
+									<div class="box-front">
+										<i class="fas fa-warehouse fa-5x"></i>
+									</div>
+									<div class="box-back"><br>
+									  <h2>#2</h2> 
+									  <p>A deign award 2016 in san Francisco</p>
+									</div>
+								  </div>
+							</div>     
+						</div>					
+					
+					</div>	
+
+				</div>
+			</div>	
+		</div>
+	</div>
+	<!------------------------------------------------------------------CHRIST MOLER START -------------------------------------------->
+	<div class="container-fluid christ-moller">
+		<div class="container">
+			<div class="row">
+				<div class=" col-md-4">
+						<img src="./assets/images/4.jpg" class="w-100 h-auto">
+				</div>
+				<div class="col-md-4">
+					<div class="ch-text">
+						<p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolore vero laboriosam sunt qui sit recusandae vitae nostrum commodi nemo cumque ullam ipsam impedit, et earum consectetur nulla, atque nobis?
+						</p1><br>
+						<p2>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolore vero laboriosam sunt qui sit recusandae vitae nostrum commodi.
+						</p2>
+						<br><h5>"I think its really important to design things with a kind of personality</h5>
+					</div>  
+				</div>
+				<div class="col-md-4 name my-auto">
+					<div class="line"> <div class="strip"></div> &nbsp; <div class="drop"></div>  </div>
+					<h1>Christ Moller</h1><br>
+					 <table>
+						<tr>
+							<td>San Francisco</td>
+							 <th>From</th>
+						</tr>	 
+						<tr>
+							<td>Academic credentials</td>
+						    <th>Experience 5 years</th>
+						</tr>
+						<tr>
+							<td>Ratings</td>
+						    <th>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+							</th>
+						</tr>
+					 </table>
+				</div>
+			</div>
+		</div>		
+	</div>
+<!------------------------------------------------------------------BLACK PORTION START(counter) -------------------------------------------->
+<div class="container-fluid black-portion">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 counting">
+				<span class="counter">787</span>
+				<div class="line my-2"> <div class="strip"></div> <div class="drop mx-2"></div>  </div>  
+			       Ratings
+			</div>
+			<div class="col-md-3 counting">
+				<span class="counter"><b>803</b></span>
+				<div class="line my-2"> <div class="strip"></div> <div class="drop mx-2"></div>  </div> 
+			       students
+			</div>
+			<div class="col-md-3 counting">
+				<span class="counter"><b>837</b></span>
+				<div class="line my-2"> <div class="strip"></div> <div class="drop mx-2"></div>  </div>  
+			       Projects
+			</div>
+			<div class="col-md-3 counting">
+				<span class="counter"><b>567</b></span>
+				<div class="line my-2"> <div class="strip"></div> <div class="drop mx-2"></div>  </div>  
+			       Courses
+			</div>
+		</div>
+	</div>
+</div>	
+<!------------------------------------------------------------------testimonial START -------------------------------------------->
+<div class="container testimonial">
+	<div class="owl-carousel owl-theme">
+		<div class="item">
+			<div>
+				<div class="row">
+					<div class="col-md-4 my-5 mam">
+						<div class="mam-pic">
+							<img src="./assets/images/avatar-10.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<div class="bulb-circle">
+								<i class="far fa-lightbulb fa-3x"></i>
+							</div>
+						</div><br>
+	
+							<div class="line"> <div class="strip"></div> &nbsp; <div class="drop"></div>  </div>
+	
+							<h3> <b> Testimonial</b> </h3>
+					</div>
+					<div class="col-md-8 testimonial-text">
+							<p>On March 1, 2014, The Economist, in an article titled "The Future of Wikipedia", cited a trend analysis concerning data published by the Wikimedia Foundation stating that "[t]he number of editors for the English-language version has fallen by a third in seven years."[19] The attrition rate for active editors in English Wikipedia was cited by The Economist as substantially in contrast to statistics for Wikipedia in other languages (non-English Wikipedia). .</p> <br><br> 
+						<div class="row">
+							<div class="col-md-4">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+							</div>		
+						</div>	
+							
+									<b>AGNES REYNOLDS</b>  <br>
+									-UI Designer
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<div>
+				<div class="row">
+					<div class="col-md-4 my-5 mam">
+						<div class="mam-pic">
+							<img src="./assets/images/avatar-15.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<div class="bulb-circle">
+								<i class="far fa-lightbulb fa-3x"></i>
+							</div>
+						</div><br>
+	
+							<div class="line"> <div class="strip"></div> &nbsp; <div class="drop"></div>  </div>
+	
+							<h3> <b> Testimonial</b> </h3>
+					</div>
+					<div class="col-md-8 testimonial-text">
+							<p>On March 1, 2014, The Economist, in an article titled "The Future of Wikipedia", cited a trend analysis concerning data published by the Wikimedia Foundation stating that "[t]he number of editors for the English-language version has fallen by a third in seven years."[19] The attrition rate for active editors in English Wikipedia was cited by The Economist as substantially in contrast to statistics for Wikipedia in other languages (non-English Wikipedia). </p> <br><br> 
+							<div class="row">
+								<div class="col-md-4">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+								</div>		
+							</div>	
+								
+										<b>AGNES REYNOLDS</b>  <br>
+										-UI Designer
+								
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<div>
+				<div class="row">
+					<div class="col-md-4 my-5 mam">
+						<div class="mam-pic">
+							<img src="./assets/images/avatar-16.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<div class="bulb-circle">
+								<i class="far fa-lightbulb fa-3x"></i>
+							</div>
+						</div><br>
+	
+							<div class="line"> <div class="strip"></div> &nbsp; <div class="drop"></div>  </div>
+	
+							<h3> <b> Testimonial</b> </h3>
+					</div>
+					<div class="col-md-8 testimonial-text">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat provident nesciunt debitis ex aliquid voluptas cum tempora cupiditate ratione aliquam voluptatum distinctio ipsam excepturi nihil sed illum, velit mollitia Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ut ipsam nihil non, inventore iusto, consectetur explicabo laudantium dolorum porro beatae incidunt, nostrum quae blanditiis at placeat numquam reprehenderit ducimus Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum odio quas quidem.</p> <br><br> 
+							<div class="row">
+								<div class="col-md-4">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+								</div>		
+							</div>	
+								
+										<b>AGNES REYNOLDS</b>  <br>
+										-UI Designer
+								
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<div>
+				<div class="row">
+					<div class="col-md-4 my-5 mam">
+						<div class="mam-pic">
+							<img src="./assets/images/avatar-2.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<div class="bulb-circle">
+								<i class="far fa-lightbulb fa-3x"></i>
+							</div>	
+						</div><br>
+	
+							<div class="line"> <div class="strip"></div> &nbsp; <div class="drop"></div>  </div>
+	
+							<h3> <b> Testimonial</b> </h3>
+					</div>
+					<div class="col-md-8 testimonial-text">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat provident nesciunt debitis ex aliquid voluptas cum tempora cupiditate ratione aliquam voluptatum distinctio ipsam excepturi nihil sed illum, velit mollitia Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ut ipsam nihil non, inventore iusto, consectetur explicabo laudantium dolorum porro beatae incidunt, nostrum quae blanditiis at placeat numquam reprehenderit ducimus Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum odio quas quidem.</p> <br><br> 
+							<div class="row">
+								<div class="col-md-4">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+								</div>		
+							</div>	
+								
+										<b>AGNES REYNOLDS</b>  <br>
+										-UI Designer
+								
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div> 
+<!------------------------------------------------------------------INPUTS START -------------------------------------------->
+ <div class="container-fluid inputs">
+	<div class="container">
+		<form action="#" method="post" class="form row">
+			<div class="col-lg-3 col-md-6 my-3">
+				<input type="name" id="fname" name="fname" placeholder="Your full name" class="form-control"> 
+			</div>
+			 <div class="col-lg-3 col-md-6 my-3">
+				<input type="email" id="email" name="email" placeholder="Your email" class="form-control">
+			 </div> 
+			  <div class="col-lg-3 col-md-6 my-3">
+				<input type="number" id="number" name="lname" placeholder="Mobile number" class="form-control">
+			</div> 
+			  <div class="col-lg-3 col-md-6 my-3">
+				<div class="button_container ms-2 take-this">
+					<div class="button_su">
+					  <span class="su_button_circle">
+					  </span>
+					  <a href="#" class="button_su_inner px-5">
+						<span class="button_text_container">
+						  TAKE THIS COURSE
+						</span>
+					  </a>
+					</div>
+				</div> 	
+			</div>                     
+		</form>  
+	</div>
+</div>  
+<!------------------------------------------------------------------FAQ START -------------------------------------------->
+<div class="container-fluid faq">
+		<div class="line mt-5"> <div class="strip"></div> &nbsp; <div class="drop"></div>  </div>
+		<center><h1><b>FAQ</b></h1></center>
+	<div class="container cards mt-5">
+		<div class="row">
+			<div class="col-md-6 col-lg-6 d-flex justify-content-center align-items-center icons-card">
+
+			        <!-- <i class="fab fa-amazon fa-3x amazon"></i>
+					 <i class="far fa-thumbs-up fa-3x mt-5 likee"></i> -->
+					
+
+				<div class="card card-1" style="width:75%;">
+					<div class="i-heading d-flex mt-md-4">
+							<i class="fas fa-glasses fa-2x"></i>&nbsp;&nbsp;
+							<h4>Education</h4>
+					</div> 
+					<div class="bars">
+							<div class="bar"> </div>  
+							<div class="bar"> </div> 
+							<div class="bar"> </div> 
+							<div class="bar"> </div> 
+					</div>
+					<div class="bars mt-2">
+							<div class="bar"> </div>  
+							<div class="bar"> </div> 
+							<div class="bar"> </div> 
+							<div class="bar"> </div> 
+					</div>
+					<div class="rectangle mt-4"></div>
+				</div>
+				<!-- <i class="fas fa-address-book fa-3x book"></i>  -->
+			</div>
+			<div class="col-md-6">
+				<div class="accordion accordion-flush" id="accordionFlushExample">
+					<div class="accordion-item">
+					  <h2 class="accordion-header" id="flush-headingOne">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+							<h5>I am not creative,should i take this course ?</h5>  
+						</button>
+					  </h2>
+					  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+						<div class="accordion-body"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consequatur sequi natus ducimus unde architecto eum nihil laudantium ipsum dolor sit amet consectetur adipisicing elit. Dicta consequatur sequi natus ducimus unde architecto eum nihil laudantium.</p></div>
+					  </div>
+					</div>
+					<div class="accordion-item">
+					  <h2 class="accordion-header" id="flush-headingTwo">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+							<h5>What is design thinking ?</h5>
+						</button>
+					  </h2>
+					  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+						<div class="accordion-body"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consequatur sequi natus ducimus unde architecto eum nihil laudantium sequi natus ducimus unde architecto eum nihil laudantium Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consequatur sequi natus ducimus unde architecto eum nihil laudantium  Dicta consequatur sequi natus.</p></div>
+					  </div>
+					</div>
+					<div class="accordion-item">
+					  <h2 class="accordion-header" id="flush-headingThree">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+							<h5>What does the course tuition go towards ?</h5>
+						</button>
+					  </h2>
+					  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+						<div class="accordion-body"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consequatur sequi natus ducimus unde architecto eum nihil laudantium.</p></div>
+					  </div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="flush-headingFour">
+						  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+							<h5>Will I get a certificate of completion ?</h5>
+						  </button>
+						</h2>
+						<div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+						  <div class="accordion-body"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consequatur sequi natus ducimus unde architecto eum nihil laudantium Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consequatur sequi natus ducimus unde architecto eum nihil laudantium Lorem.</p></div>
+						</div>
+					  </div>
+
+				  </div>
+			</div>	
+		</div>
+	</div>
+</div>
+<!------------------------------------------------------------------grey portion START -------------------------------------------->
+<div class="grey-portion py-4">
+	<div class="line mt-3"> <div class="strip"></div> &nbsp; <div class="drop"></div>  </div>
+	<center><h1>Latest from blog</h1></center>	
+	<div class="container mt-5">
+		<div class="row">
+			<!-------------------------------------tweets feed---------------------------------->
+			<div class="col-lg-4 tweet">
+				<h4>Tweets Feed</h4>
+				<section id="featured-post">  
+					<div id="slide-container">
+					   <div id="slides">
+						 <!--featured article goes here-->
+						   	<article class="featured-article animated">
+								<div class="row mt-4">
+									<div class="col-md-6 d-flex ">
+									<img src="./assets/images/h.jpg" height="60rem">&nbsp;&nbsp;
+										<b>John Doe</b>	&nbsp;&nbsp;
+										<i class="fas fa-check-circle mt-4 ms-2"></i>
+									</div>
+									<div class="col-md-6 d-flex justify-content-end">
+										<button class="bt-twt px-2 my-3"><i class="fab fa-twitter twt"></i>Follow</button>
+									</div>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ducimus rerum praesentium.</p>
+								</div>
+								
+								<div class="row">
+									<div class="col-md-6 d-flex ">
+									<img src="./assets/images/h.jpg" height="60rem">&nbsp;&nbsp;
+										<b>John Doe</b>	&nbsp;&nbsp;
+										<i class="fas fa-check-circle mt-4 ms-2"></i>
+									</div>
+									<div class="col-md-6 d-flex justify-content-end">
+										<button class="bt-twt px-2 my-3"><i class="fab fa-twitter twt"></i>Follow</button>
+									</div>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ducimus rerum praesentium.</p>
+								</div>
+								
+								<div class="row mb-4">
+									<div class="col-md-6 d-flex ">
+									<img src="./assets/images/h.jpg" height="60rem">&nbsp;&nbsp;
+										<b>John Doe</b>	&nbsp;&nbsp;
+										<i class="fas fa-check-circle mt-4 ms-2"></i>
+									</div>
+									<div class="col-md-6 d-flex justify-content-end">
+										<button class="bt-twt px-2 my-3"><i class="fab fa-twitter twt"></i>Follow</button>
+									</div>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ducimus rerum praesentium.</p>
+								</div>
+						 	</article>
+
+							<article class="featured-article animated">
+								<div class="row mt-4">
+									<div class="col-md-6 d-flex ">
+									<img src="./assets/images/h.jpg" height="60rem">&nbsp;&nbsp;
+										<b>John Doe</b>	&nbsp;&nbsp;
+										<i class="fas fa-check-circle mt-4 ms-2"></i>
+									</div>
+									<div class="col-md-6 d-flex justify-content-end">
+										<button class="bt-twt px-2 my-3"><i class="fab fa-twitter twt"></i>Follow</button>
+									</div>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ducimus rerum praesentium.</p>
+								</div>
+								
+								<div class="row">
+									<div class="col-md-6 d-flex ">
+									<img src="./assets/images/h.jpg" height="60rem">&nbsp;&nbsp;
+										<b>John Doe</b>	&nbsp;&nbsp;
+										<i class="fas fa-check-circle mt-4 ms-2"></i>
+									</div>
+									<div class="col-md-6 d-flex justify-content-end">
+										<button class="bt-twt px-2 my-3"><i class="fab fa-twitter twt"></i>Follow</button>
+									</div>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ducimus rerum praesentium.</p>
+								</div>
+
+								<div class="row mb-4">
+									<div class="col-md-6 d-flex ">
+									<img src="./assets/images/h.jpg" height="60rem">&nbsp;&nbsp;
+										<b>John Doe</b>	&nbsp;&nbsp;
+										<i class="fas fa-check-circle mt-4 ms-2"></i>
+									</div>
+									<div class="col-md-6 d-flex justify-content-end">
+										<button class="bt-twt px-2 my-3"><i class="fab fa-twitter twt"></i>Follow</button>
+									</div>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ducimus rerum praesentium.</p>
+								</div>
+							</article>
+					  </div>
+					   <div class="button-slide">
+							<!-- button and dots indicator -->
+							<button class="prev">
+								<i class="fa fa-angle-up"  style="font-size:24px"></i>
+							</button>
+							<button class="next">
+								<i class="fa fa-angle-down" style="font-size:24px"></i>
+							</button>
+						</div>
+					</div>
+				</section>
+			</div>
+			<!------------------------------------Card------------------------------------>
+			<div class="col-lg-8">
+				<div class="card blog">
+					<div class="row">
+						<div class="col-lg-6 blog-text">
+							<h4>I'm not creative should i take this course?</h4>
+							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis blanditiis saepe nobis iure quam dolorum esse porro? Velit consequuntur.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde maiores magnam non sapiente? Perspiciatis nulla nisi cum sint. Ex obcaecati soluta minus impedit. Possimus, odit enim minus eveniet rerum unde Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus laudantium vitae, perferendis corporis aut eum error alias.</p>
+						</div>
+						<div class="col-lg-6">
+							<img src="./assets/images/6.jpeg" height="100%" width="100%">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="button_container d-flex justify-content-center my-5 ">
+		<div class="button_su">
+		  <span class="su_button_circle">
+		  </span>
+		  <a href="#" class="button_su_inner px-5">
+			<span class="button_text_container">
+			  All POST
+			</span>
+		  </a>
+		</div>
+	</div>
+</div>
+<!------------------------------------------------------------------CALLING START -------------------------------------------->	
+<div class="container calling py-5">
+	<div class="row ">
+		<div class="col-md-6">
+			<h3>Ready to get started&nbsp;?</h3>
+			<h1>Get in touch,we will call you</h1>
+		</div>
+		<div class="col-md-6 call_number my-auto ">
+			<form action="#" method="post" class="call d-flex">
+					<input type="number" id="number" name="" placeholder=" Your number" class="ms-3 form-control" >
+				
+				<div class="button_container ms-3 mt-1">
+					<div class="button_call">
+						<span class="call_button_circle">
+						</span>
+						<a href="#" class="button_call_inner px-5">
+						<span class="button_text_container">
+							CALL ME NOW
+						</span>
+						</a>
+					</div>
+				</div>  
+			</form>
+		</div>	
+	</div>
+</div>
+
+<!------------------------------------------------------------------FOOTER START -------------------------------------------->	
+<div class="container-fluid footer">
+	<div class="row justify-content-end">
+		<div class="col-md-4 first">
+			<div class="i2-heading mt-md-4">
+				<i class="fas fa-glasses fa-4x"></i>&nbsp;&nbsp;
+				<h1>Education</h1>
+			</div>
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, illo reiciendis asperiores et ab eum, dolor necessitatibus tempore aut voluptatem recusandae aperiam quidem nam, rem debitis. Id quas molestiae quo!</p><br>
+				<h5>Subscribe</h5>
+				<form action="#" method="post" class="subs">
+					<div class="row">
+						<div class="col-12">
+							<input type="email" id="email" name="email" placeholder="Your email" class="form-control">
+							<button type="button" class="btn btn-lg mb-5">
+								<i class="fas fa-arrow-right btn-arrow"></i>
+							</button>
+						</div>  
+					</div>
+						                                     
+				</form>
+		</div>
+		<div class="col-md-7 map mt-0">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108965.89915793815!2d73.1184207310464!3d31.409046593325836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392269b7bed2188b%3A0x80f0a61eeb47b5bf!2sCSOFT%20Systems!5e0!3m2!1sen!2s!4v1628077261047!5m2!1sen!2s" width="101.25%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe> <br><br>
+			<div class="row">
+				<div class="col-md-2 col-lg-1">Terms</div>
+				<div class="col-md-2 col-lg-3">Privacy</div>
+				<div class="col-md-4 col-lg-2">+1 5545678</div>
+				<class class="col-md-4 col-lg-2">info@swlabs.co</class>
+			</div>
+		</div>
+	</div>
+</div>
+
+  
+
+<!--	Jquery 3.6.0 JS File	-->
+<script src="./assets/jquery/jquery-3.6.0.min.js"></script>
+<!--	Bootstrap 5.0.2 JS FIle	-->
+<script src="./assets/js/bootstrap.bundle.min.js"></script>
+<!--	for carousel	-->
+<script src="./assets/js/owl.carousel.min.js"></script>
+<!--	counter	-->
+<script src="./assets/js/jquery.waypoints.min.js"></script>
+<script src="./assets/js/jquery.countup.min.js"></script>
+<!--	custom JS File	-->
+<script src="./assets/js/custom-js.js"></script> 
+</body>	 
+</html>

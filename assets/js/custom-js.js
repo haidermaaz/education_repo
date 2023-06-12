@@ -1,3 +1,7 @@
+
+function load(){
+    alert("It contains 2 web pages first one is: 'HOME' & second is: 'COURSE'. I done this task assigned by my software house to convert PSD design into HTML  ")
+}
 // -----------------------------------------------------search bar------------------------------------------------------
 // updated 2019
 const input = document.getElementById("search-input");
